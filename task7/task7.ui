@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>325</width>
+    <width>600</width>
     <height>325</height>
    </rect>
   </property>
@@ -14,7 +14,7 @@
    <string>task7</string>
   </property>
   <property name="toolTip">
-   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;task1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QListWidget" name="listWidget">
@@ -22,9 +22,22 @@
      <rect>
       <x>30</x>
       <y>10</y>
-      <width>271</width>
-      <height>271</height>
+      <width>541</width>
+      <height>221</height>
      </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="execButton">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>240</y>
+      <width>111</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выполнить</string>
     </property>
    </widget>
   </widget>
@@ -33,7 +46,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>325</width>
+     <width>600</width>
      <height>26</height>
     </rect>
    </property>
