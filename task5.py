@@ -80,9 +80,11 @@ def format_phone_number(number):
 
 
 def main():
-    try:
-        phone_number = input("Введите номер телефона: ")
-        formatted_number = format_phone_number(phone_number)
-        print(formatted_number)
-    except (CountryCodeError, DigitCountError, OperatorError, FormatError) as e:
-        print(e)
+    while True:
+        try:
+            phone_number = input("Введите номер телефона: ")
+            formatted_number = format_phone_number(phone_number)
+            print(formatted_number)
+        except (CountryCodeError, DigitCountError, OperatorError, FormatError) as e:
+            print(e)
+
